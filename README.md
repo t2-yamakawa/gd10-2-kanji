@@ -1,1 +1,1 @@
-# gd2-kanji
+# gd10-2-kanji
