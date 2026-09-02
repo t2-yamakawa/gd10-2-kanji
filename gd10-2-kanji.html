@@ -1,0 +1,98 @@
+﻿```html
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>PARTY MANAGEMENT REPORT</title>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #1a1a2e;
+            color: #00ff66;
+            font-family: 'DotGothic16', sans-serif;
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            color: #ffffff;
+            font-size: 28px;
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+        }
+        .card {
+            border: 3px solid #ffffff;
+            background-color: #1a1a2e;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+        .top-row {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        .top-row .card {
+            flex: 1;
+            margin-bottom: 0;
+        }
+        h2 {
+            color: #ffe600;
+            font-size: 20px;
+            margin-top: 0;
+            border-bottom: 1px dashed #ffe600;
+            padding-bottom: 5px;
+        }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+        .status-tag { color: #ffffff; font-size: 0.9em; margin-left: 5px; }
+        img { vertical-align: middle; }
+    </style>
+</head>
+<body>
+    <h1>PARTY MANAGEMENT REPORT</h1>
+
+    <div class="top-row">
+        <div class="card">
+            <h2>PARTY MEMBERS (参加パーティ)</h2>
+            <img src="https://api.dicebear.com/7.x/pixel-art/svg?seed=Leader" width="40" height="40" alt="幹事アイコン"> 幹事 [Lv.99 HP 9999]<br>
+            <img src="https://api.dicebear.com/7.x/pixel-art/svg?seed=Yamakawa" width="40" height="40" alt="Yamakawa"> Yamakawa [Lv.99 HP 9999]<br>
+            <img src="https://api.dicebear.com/7.x/pixel-art/svg?seed=Tanaka" width="40" height="40" alt="Tanaka"> Tanaka [Lv.99 HP 9999]<br>
+            <img src="https://api.dicebear.com/7.x/pixel-art/svg?seed=Sato" width="40" height="40" alt="Sato"> Sato [Lv.99 HP 9999]
+        </div>
+        <div class="card">
+            <h2>開催情報 (PARTY INFO)</h2>
+            目的: 新人歓迎会 [Lv.5 / EXP 100]<br>
+            人数: 5 人 [メンバー]<br>
+            予算: 4000 円 [GOLD]<br>
+            候補日: 09/01, 09/02
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>MISSION (おすすめスタイル)</h2>
+        <ul>
+            <li>体験・ゲーム系</li>
+            <li>カジュアル系</li>
+            <li>伝統的な飲食系</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>MESSAGE (案内文)</h2>
+        新人歓迎会を開催します！参加人数は5人、予算は4000円です。候補日は09/01と09/02です。ぜひご参加ください！
+    </div>
+
+    <div class="card">
+        <h2>QUEST AREA (おすすめ店舗)</h2>
+        <ul>
+            <li>居酒屋「魚金」 - 新鮮な海鮮が楽しめる居酒屋です。予約をおすすめします。</li>
+            <li>カフェ「ボン・ボヤージュ」 - 落ち着いた雰囲気のカフェで、軽食も豊富です。混雑時の予約が良いでしょう。</li>
+            <li>レストラン「イタリアーノ」 - 本格的なイタリアンを楽しめるレストランです。事前に予約をお忘れなく。</li>
+        </ul>
+    </div>
+</body>
+</html>
+```
